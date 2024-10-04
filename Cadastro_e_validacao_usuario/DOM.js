@@ -17,7 +17,7 @@ function validar(){
         return false;
     }
 
-    if(document.UAM_aula.teu_Email.value ==""){
+    if(document.UAM_aula.teu_email.value ==""){
         alert("Digite um email!");
         document.getElementById("teu_iemail").focus();
         return false;
