@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="DOM.js"></script>
-    <title>Uso do Confirm</title>
+    
+    <title>Validação de cadastro de usuário</title>
 </head>
 <body>
-    <form name ="curso"></form>
-    <lable></lable>
-    <input>
-    <lable></lable>
-    <button></button>
+    <script src="DOM.js"></script>
+
+    <form name ="UAM_aula" action ="#" method = "#" onsubmit="return validar()"></form>
+        <lable> Nome:</lable>
+        <input type ="text" name ="teu_nome" id="teu_nome" maxlength="50"> <br><br>
+        <label>Senha:</label>
+        <input type="password" name ="tua_senha" id="tua_senha" maxlength="20" ><br><br>
+        <label>Data de nascimento:</label>
+        <input type="text" name ="tua_data" id="tua_data" maxlength="10"><br><br>
+        <lable>e-mail:</lable>
+        <input type="text" name="teu_email" id="teu_email" maxlength="50"><br><br>
+        <button type="submit" value ="gravar"></button>
+
+    </form>
+
     
 </body>
 </html>
